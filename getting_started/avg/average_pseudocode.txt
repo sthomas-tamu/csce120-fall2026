@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+    //create and initialize a sum and count
+    //prompt user for numbers, stopping at -1
+    //read in first number, make sure its ok
+    //while they didn't put in a -1
+        //add it to the sum
+        //increase count by 1
+        //read in another number, check if ok
+    // average is sum / count, print it out
+
+    return 0;
+}
