@@ -15,9 +15,9 @@ class Team {
   Team(const std::string& name, const std::vector<Player>& players)
     : name_{name}, players_{players}, num_wins_{0}, num_losses_{0}, num_ties_{0} {}
 
-  // getter and setter for name_
+  // getter for name_
   std::string name() const;
-  void set_name(const std::string&);
+  // setter removed, not allowing outside of constructor
 
   // update players_
   void add_player(const Player&);

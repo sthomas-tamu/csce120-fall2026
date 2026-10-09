@@ -9,17 +9,17 @@ class Player {
   Player(const std::string& name, unsigned int jersey_number, const std::string& position)
    : name_{name}, jersey_number_{jersey_number}, position_{position} {}
 
-  // getter and setter for name_
+  // getter for name_
   std::string name() const;
-  void set_name(const std::string&);
+  // setter removed, only allowing through constructor
 
   // getter and setter for jersey_number_
   unsigned int jersey_number() const;
-  void set_jersey_number(unsigned int);
+  // setter removed, only allowing through constructor
 
   // getter and setter for position_
   std::string position() const;
-  void set_position(const std::string&);
+  // setter removed, only allowing through constructor
 
   std::string print() const;
 

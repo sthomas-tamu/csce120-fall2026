@@ -3,13 +3,9 @@
 #include <sstream>
 #include <iostream>
 
-// getter and setter for name_
+// getter for name_
 std::string Team::name() const {
   return name_;
-}
-
-void Team::set_name(const std::string& s) {
-  name_ = s;
 }
 
 // update players_
