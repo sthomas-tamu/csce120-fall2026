@@ -1,0 +1,7 @@
+lw 0.00
+quiz 7.80
+quiz 8.13
+hw 74.32
+exam 84.43
+final-exam 75.86
+engagement 59.44
