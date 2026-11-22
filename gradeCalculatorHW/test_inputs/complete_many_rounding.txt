@@ -1,0 +1,6 @@
+hw 83
+lw 1
+exam 70
+final-exam 72
+quiz 5.2
+engagement 60
